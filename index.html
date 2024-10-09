@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Simple Website with Images</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Footer Styles */
+      footer {
+        background-color: #2b2f33;
+        color: #ffffff;
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .footer-section {
+        flex: 1;
+        padding: 20px;
+        min-width: 200px;
+      }
+
+      .footer-section p,
+      .footer-section strong {
+        margin: 5px 0;
+      }
+
+      .footer-section img {
+        height: 60px;
+      }
+
+      .footer-section h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      .footer-bottom {
+        margin-top: 20px;
+      }
+
+      .footer-bottom p {
+        margin: 5px 0;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Images/logo.png" alt="Logo Kabupaten Tabalong" />
+        <h1>PEMERINTAH KABUPATEN TABALONG</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Profil</a></li>
+          <li><a href="#">UMKM</a></li>
+          <li><a href="#">Berita Daerah</a></li>
+          <li><a href="#">Administrasi</a></li>
+          <li><a href="#">Jendela Informasi</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-content">
+        <div class="announcement">
+          <h2>Pengumuman</h2>
+          <img src="Images/announcement.png" alt="Announcement Image" />
+          <p>
+            MOU Pemkab Tabalong dan Politeknik Negeri Banjarmasin ( POLIBAN )
+          </p>
+        </div>
+
+        <div class="latest-news">
+          <h2>Kabar Terbaru</h2>
+          <ul>
+            <li>
+              <img src="Images/news1.jpg" alt="News 1 Image" /><a href="#"
+                >Seluruh Partai Politik Nyatakan Sikap Damai Pilkada 2024</a
+              >
+            </li>
+            <li>
+              <img src="Images/news2.jpg" alt="News 2 Image" /><a href="#"
+                >Meriahnya Peringatan HUT RI di SDN 5 Mangkupum Tabalong</a
+              >
+            </li>
+            <li>
+              <img src="Images/news3.jpg" alt="News 3 Image" /><a href="#"
+                >Ngobrol Bareng Diskominfo Bahas Digitalisasi Ekonomi Kreatif</a
+              >
+            </li>
+            <li>
+              <img src="Images/news4.jpg" alt="News 4 Image" /><a href="#"
+                >Upaya Kendalikan Inflasi, Pemkab dan TNI Gelar Pasar Murah</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section statistics">
+            <h4>Statistik Pengunjung</h4>
+            <div class="stats">
+              <div>
+                <strong>Hari Ini</strong>
+                <p>984 Orang</p>
+              </div>
+              <div>
+                <strong>Bulan Ini</strong>
+                <p>2.02K Orang</p>
+              </div>
+              <div>
+                <strong>Total</strong>
+                <p>475.91K Orang</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-section contact">
+            <h4>Kontak</h4>
+            <div class="contact-info">
+              <div>
+                <strong>Kode Pos</strong>
+                <p>71513</p>
+              </div>
+              <div>
+                <strong>Telepon</strong>
+                <p>(0526) 2021035</p>
+              </div>
+              <div>
+                <strong>Fax</strong>
+                <p>(0526) 2021510</p>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <p>info@tabalongkab.go.id</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-section logo-section">
+            <img src="Images/logo.png" alt="Logo Tabalong" />
+            <h4>PEMERINTAH KABUPATEN TABALONG</h4>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2018 - 2024 DISKOMINFO TABALONG</p>
+        </div>
+      </footer>
+    </footer>
+  </body>
+</html>
