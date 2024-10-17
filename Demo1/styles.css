@@ -6,7 +6,10 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000; 
+  background-image: url('images.jpg'); /* Ganti 'path-ke-foto.jpg' dengan path gambar yang ingin kamu gunakan */
+  background-size: cover; /* Mengatur gambar agar memenuhi seluruh layar */
+  background-position: center; /* Posisikan gambar di tengah */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +17,7 @@ body {
 }
 
 .calculator {
-  background-color: #9ab3e9; 
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -26,7 +29,7 @@ body {
   font-size: 24px;
   text-align: right;
   padding: 10px;
-  border: 2px solid #2600ff; 
+  border: 2px solid #ccc;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -48,7 +51,7 @@ body {
 }
 
 .button:hover {
-  background-color: #ddd;
+  background-color: #13d8ff;
 }
 
 button:active {
