@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('sunset-stars-night-sky-synthwave-abstract-digital-art-hd-wallpaper-uhdpaper.com-625@2@a.jpg'); /* Ganti 'path-ke-foto.jpg' dengan path yang benar menuju gambar yang ingin kamu gunakan */
+  background-image: url("sunset-stars-night-sky-synthwave-abstract-digital-art-hd-wallpaper-uhdpaper.com-625@2@a.jpg"); /* Ganti 'path-ke-foto.jpg' dengan path yang benar menuju gambar yang ingin kamu gunakan */
   background-size: cover; /* Mengatur agar gambar menutupi seluruh layar */
   background-position: center; /* Menempatkan gambar di tengah */
   background-repeat: no-repeat; /* Menghindari pengulangan gambar */
@@ -38,7 +38,7 @@ button {
   padding: 10px 20px;
   margin-top: 10px;
   font-size: 16px;
-  background-color: #4caf50;
+  background-color: #2354dc;
   color: white;
   border: none;
   border-radius: 5px;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-  background-color: #49f252;
+  background-color: #003cff;
 }
 
 ul {
