@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("sunset-stars-night-sky-synthwave-abstract-digital-art-hd-wallpaper-uhdpaper.com-625@2@a.jpg"); /* Ganti 'path-ke-foto.jpg' dengan path yang benar menuju gambar yang ingin kamu gunakan */
-  background-size: cover; /* Mengatur agar gambar menutupi seluruh layar */
-  background-position: center; /* Menempatkan gambar di tengah */
-  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  background-image: url("sunset-stars-night-sky-synthwave-abstract-digital-art-hd-wallpaper-uhdpaper.com-625@2@a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-  width: 400px;
+  width: 90%; /* Ubah dari fixed width ke persen untuk fleksibilitas */
+  max-width: 400px; /* Membatasi ukuran maksimal agar tidak terlalu besar */
   background-color: white;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -22,14 +23,14 @@ body {
 
 h1 {
   color: #333;
-  font-size: 24px;
+  font-size: 2rem; /* Gunakan rem untuk font-size agar lebih fleksibel */
   margin-bottom: 20px;
 }
 
 input {
-  width: 80%;
+  width: 100%; /* Lebar 100% agar mengikuti container */
   padding: 10px;
-  font-size: 16px;
+  font-size: 1rem; /* Ubah ke rem */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -37,7 +38,7 @@ input {
 button {
   padding: 10px 20px;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 1rem; /* Ubah ke rem */
   background-color: #2354dc;
   color: white;
   border: none;
@@ -63,7 +64,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem; /* Sesuaikan dengan rem */
 }
 
 li button {
@@ -76,4 +77,34 @@ li button {
 
 li button:hover {
   background-color: #e53935;
+}
+
+/* Media queries untuk layar kecil */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem; /* Font lebih kecil untuk layar sedang */
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem; /* Font lebih kecil untuk layar kecil */
+  }
+
+  button {
+    padding: 8px 15px; /* Sesuaikan ukuran tombol */
+    font-size: 0.875rem; /* Ukuran font lebih kecil */
+  }
+
+  li {
+    font-size: 0.875rem; /* Font lebih kecil untuk daftar */
+  }
 }
