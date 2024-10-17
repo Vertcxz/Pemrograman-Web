@@ -1,6 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  background-image: url('sunset-stars-night-sky-synthwave-abstract-digital-art-hd-wallpaper-uhdpaper.com-625@2@a.jpg'); /* Ganti 'path-ke-foto.jpg' dengan path yang benar menuju gambar yang ingin kamu gunakan */
+  background-size: cover; /* Mengatur agar gambar menutupi seluruh layar */
+  background-position: center; /* Menempatkan gambar di tengah */
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +46,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #49f252;
 }
 
 ul {
@@ -64,7 +67,7 @@ li {
 }
 
 li button {
-  background-color: #f44336;
+  background-color: #36b8f4;
   color: white;
   border: none;
   padding: 5px 10px;
