@@ -14,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 10px;
 }
 
 .calculator {
@@ -21,6 +22,8 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .display input {
@@ -56,4 +59,39 @@ body {
 
 button:active {
   background-color: #ccc;
+}
+
+/* Media Queries untuk responsivitas */
+@media (max-width: 768px) {
+  .calculator {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .button {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .display input {
+    font-size: 20px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculator {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .display input {
+    font-size: 18px;
+    height: 40px;
+  }
 }
